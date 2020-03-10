@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC1 - Formulário de Login</title>
+    <link rel="stylesheet" href="novo.css"
+</head>
+<body>
+    <form action="/" method="POST">
+    <label for="usuario">Usuário:</label>
+    <input name="usuario" id="usuario" type="email" placeholder="usuario@email.com">
+    <label for="senha">Senha:</label>
+    <input name="senha" id="senha" type="password" placeholder="********">
+    <input name="lembrar" id="lembrar" type="checkbox">
+    <label for="lembrar">Lembrar Senha</label>
+    <button>Enviar</button>
+    <br>
+    <br>
+    <textarea></textarea>
+    <button>Enviar</button>
+    <br>
+    <br>
+    <label for="select">Selecione:</label>
+    <select id="select" name="opções">
+    <option>SP</option>
+    <option>RJ</option>
+    </select>
+
+</form>
+</body>
+</html>
